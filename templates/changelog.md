@@ -1,0 +1,2 @@
+﻿<% for (var i = 0; i < items.length; i++) {%>
+- **<%= items[i].workItemType %> [<%= items[i].tag %>]:** <%= items[i].workItemTitle %> ([<%= items[i].id %>](https://tfs.axoft.com/Desarrollo/TANGO_CLOUD/Framework/_workitems/edit/<%= items[i].id %>))<% } %>
