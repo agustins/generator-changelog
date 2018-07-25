@@ -41,7 +41,7 @@ module.exports = class extends Generator {
     }
 
     initializing() {
-        this.sourceRoot(path.resolve(this.contextRoot,'templates'));
+        this.sourceRoot(path.join(__dirname, '../templates'));
     }
 
     prompting() {
